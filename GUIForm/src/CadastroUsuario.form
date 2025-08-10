@@ -16,7 +16,7 @@
           <text value="E-mail"/>
         </properties>
       </component>
-      <component id="a5c83" class="javax.swing.JTextField" binding="jtfEmail">
+      <component id="a5c83" class="javax.swing.JTextField" binding="tfEmail">
         <constraints>
           <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
@@ -36,16 +36,6 @@
           <toolTipText value="Senha"/>
         </properties>
       </component>
-      <component id="b83be" class="javax.swing.JPasswordField" binding="passwordSenha">
-        <constraints>
-          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
-          </grid>
-        </constraints>
-        <properties>
-          <text value=""/>
-        </properties>
-      </component>
       <component id="6ba81" class="javax.swing.JButton" binding="cadastrarButton" default-binding="true">
         <constraints>
           <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
@@ -59,6 +49,16 @@
           <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
         </constraints>
       </vspacer>
+      <component id="d3e25" class="javax.swing.JTextField" binding="tfSenha">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Your Password"/>
+        </properties>
+      </component>
     </children>
   </grid>
 </form>
